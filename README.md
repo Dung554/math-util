@@ -17,44 +17,43 @@ This repository contains a Maven project that simulates a legendary Math Library
 
 ---
 
-## **🔍 Project Overview**
+## **Project Overview**
 
 This project includes:
 
-- 📦 **Maven Project**  
+- **Maven Project**  
   Java source code that mimics a legendary Math Library, featuring essential mathematical functions such as factorials, prime checks, and more.
   
-- 🧪 **Unit Testing**  
+- **Unit Testing**  
   A suite of unit tests written using the **JUnit Framework**, following **TDD (Test-Driven Development)** and **DDT (Data-Driven Testing)** best practices.
   
-- ⚙️ **Continuous Integration (CI)**  
+- **Continuous Integration (CI)**  
   CI setup using **GitHub Actions** for automated build, test, and deployment pipelines to ensure project stability.
 
 ---
 
-## **✨ Features**
+## **Features**
 
-- 🔢 **Accurate mathematical calculations**  
+- **Accurate mathematical calculations**  
   Implementations of common and advanced math functions with a focus on precision and efficiency.
-  
-- 🧪 **Thorough unit testing**  
+  **Thorough unit testing**  
   Comprehensive tests covering edge cases, ensuring correctness and reliability.
   
-- 🚀 **CI/CD Pipeline**  
+- **CI/CD Pipeline**  
   Integrated GitHub Actions for continuous testing and building, making collaboration seamless.
 
 ---
 
-## **🛠️ Technologies Used**
+## **Technologies Used**
 
-- **Java** 🟦
-- **JUnit** ✅
-- **Maven** 📦
-- **GitHub Actions** ⚙️
+- **Java**
+- **JUnit**
+- **Maven**
+- **GitHub Actions**
 
 ---
 
-## **🚀 Getting Started**
+## **Getting Started**
 
 Follow these steps to set up and run the project on your local machine.
 
