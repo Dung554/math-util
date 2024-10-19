@@ -1,6 +1,6 @@
 package com.DunUn.mathutil.core.TEST;
 
-import com.giaolangV2.mathutil.core.MathUtility;
+import com.DunUn.mathutil.core.MathUtility;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 

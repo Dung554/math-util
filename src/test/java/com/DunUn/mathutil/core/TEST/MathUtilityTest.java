@@ -1,5 +1,5 @@
 package com.DunUn.mathutil.core.TEST;
-import com.giaolangV2.mathutil.core.MathUtility;
+import com.DunUn.mathutil.core.MathUtility;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
