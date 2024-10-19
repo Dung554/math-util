@@ -1,0 +1,40 @@
+SWT buổi 3
+1.
+- Kiểm thử chức năng(functional testing) giúp ta test các chức năng, tính năng của phần mềm nó tính toán, xử lý info đúng hay ko(nhập data vào, nhấn nút kiểm tra xem kq đúng k?), test xem chức năng app đc run
+
+2.
+- Kiểm thử phần mềm còn lại kiểm tra hiệu năng hoạt động của app, ktra các đặc điểm, đặc trưng(attribute) của app có thoả cam kết hay k
+- Kiểm thử hiệu năng, đặc điểm của app có nghĩa là ta đo trên các thông số mang tính chat tổng quát của cả app - ko focus vào từng màn hình hay chức năng
+- Ta đo: đẹp xấu, nhanh chậm, nhanh chậm, an toàn bảo mật, dễ dung, tuân thủ tiêu chuẩn ngành, tuân thủ pháp luật nhà nước...
+- Kiểm thử phi chức năng (Non-fuctional testing, performance testing) rất khó
+VD: app FAP cần phải hỗ trợ tối a 10k user vào cùng lúc giờ cao điểm
+    giờ bình thường vài tram < 500
+    -> cần đồ chơi - JMETER (giả lập user)
+
+    app cần bảo mật, an toàn, chống các kĩ thuật tấn công (SQL INJECTION, BRUTE FORCE...) -> Kiến thức bộ môn an toàn thông tin
+
+    app đẹp nhen, dễ dung dễ sử dung nhen (UI/UX)... 
+
+3. Định nghĩa số 3: Kiểm thử phần mềm còn là ktra xem app có đc Implement như đã hứa trong tài lieu requirements hay ko do dân đi khách BA làm ra
+										SRS: Software requirement specification
+										FRS: Functional requirement specification
+										Bản đặc tả yêu cầu phần mềm, gọi tắt là SPEC
+- Dàn QC có thể tham gia luôn vào ngay quá trình viết ra SPEC, ngay quá trình design UI, design DB
+-> Càng tham gia vào dự án sớm, càng giúp tránh sai sót ở giai đoạn code, tiết kiệm chi phí khi sai sót đc phát hiện trc khi viết code
+-> Test càng sớm càng tốt, test ngay từ lúc có document và phần design
+
+III. Ai tham gia vào qtrinh kiểm thử phần mềm, ai tham gia vào qtrinh đảm bảo chat lượng phần mềm?
+1. DEV
+2. QA/QC/tester
+3. QA/QC manager
+4. User, end-user, customer
+--------------------------------------
+1. DEV 
+- Dev phải có trách nhiệm test code của mình trc khi bàn giao cho ngkhac lắp ghép và sử dung, hoặc chính mình sử dung
+* Test code của mình là test cái gì và như thế nào?
+- trong 1 dự án phần mềm, đơn vị nhỏ nhất trong src code là hàm/method/class hay còn gọi là unit of code
+- Việc ktra từng hàm chạy đúng hay sai, từng class chứa các hàm đúng hay sai. Đây là việc của Dev, ai code thì người đó hiểu code nhất -> Unit testing
+
+* Làm sao để test 1 hàm?
+- gọi hàm thử, đưa tham số và in ra màn hình thử, in ra cửa sổ console/terminal
+- gọi hàm, đưa tham số, in ra file .log (tomcat có thư mục logs) chứa nhật kí hoạt động của cái app. class logger
