@@ -63,5 +63,6 @@ Follow these steps to set up and run the project on your local machine.
 
 ### Screen-shot
 ![JUnit and Maven](https://github.com/Dung554/math-util/blob/main/screenshots/JUnit_and_maven.png)
+[![Math Utility Project (CI included) | © 2024 by Dũn.Un ](https://github.com/Dung554/math-util/actions/workflows/CI-script-with-JUnit.yml/badge.svg)](https://github.com/Dung554/math-util/actions/workflows/CI-script-with-JUnit.yml)
 
 #### 
