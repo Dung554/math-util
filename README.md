@@ -8,7 +8,7 @@ This repository contains a Maven project that simulates a legendary Math Library
 
 ---
 
-## **📜 Table of Contents**
+## **Table of Contents**
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
