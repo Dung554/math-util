@@ -1,6 +1,6 @@
-package com.giaolangV2.mathutil.main;
+package com.DunUn.mathutil.main;
 
-import com.giaolangV2.mathutil.core.MathUtility;
+import com.DunUn.mathutil.core.MathUtility;
 
 public class Main {
     public static void main(String[] args) {

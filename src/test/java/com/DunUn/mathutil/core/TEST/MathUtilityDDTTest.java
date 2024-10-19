@@ -1,4 +1,4 @@
-package com.giaolangV2.mathutil.core.TEST;
+package com.DunUn.mathutil.core.TEST;
 
 import com.giaolangV2.mathutil.core.MathUtility;
 import org.junit.jupiter.params.ParameterizedTest;

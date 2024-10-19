@@ -1,4 +1,4 @@
-package com.giaolangV2.mathutil.core;
+package com.DunUn.mathutil.core;
 
 public class MathUtility {
 
