@@ -1,8 +1,8 @@
-# 🌟 **Math Utility** 🌟
+# **Math Utility**
 
 ---
 
-## **Welcome to Math Utility** 🚀
+## **Welcome to Math Utility**
 
 This repository contains a Maven project that simulates a legendary Math Library, complete with unit tests and continuous integration setup.
 
